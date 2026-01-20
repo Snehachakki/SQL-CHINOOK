@@ -1,20 +1,26 @@
-This task focuses on learning basic SQL concepts such as filtering, sorting, grouping, and aggregation. The aim is to analyze a dataset using SQL queries and generate useful summary results.
+# SQL Task – Chinook Database
 
-Tools Used
+## Overview
+This project is part of my Data Analyst Internship task.
+The objective is to practice basic SQL concepts using the Chinook SQLite database.
 
-- MySQL / PostgreSQL
-- MySQL Workbench / PgAdmin / DBeaver
-- Retail or Superstore CSV dataset
+## Dataset Used
+- Chinook Database (SQLite)
+- It contains music store data such as customers, invoices, tracks, artists, and albums.
 
-What I Did
+## Tools Used
+- SQLite
+- DB Browser for SQLite
+- Notepad
+- GitHub
 
-- Created a database and table with correct data types
-- Imported the CSV dataset into SQL
-- Used SELECT queries to explore the data
-- Applied WHERE to filter records
-- Used ORDER BY to sort sales data
-- Performed aggregations using SUM, AVG, and COUNT
-- Grouped data using GROUP BY
-- Filtered aggregated results using HAVING
-- Used LIKE and BETWEEN for pattern and date filtering
-- 
+## What I Did
+- Opened the Chinook SQLite database in DB Browser
+- Explored tables like Customer, Invoice, InvoiceLine, Track
+- Wrote SQL queries using:
+  - SELECT
+  - WHERE
+  - ORDER BY
+  - GROUP BY
+  - HAVING
+  - JOIN (INNER and LEFT)
